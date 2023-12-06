@@ -149,6 +149,7 @@ int Stack::pop(void) {
 }
 
 int main() {
+	system("chcp 1251>null");
 	Stack stk;
 	try {
 		for (int i = 0; i < 100; i++) {
