@@ -156,7 +156,6 @@ int main() {
 			stk.push(i);
 		}
 		stk.push(8);
-
 	}
 	catch (stack_overflow& exc)
 	{
