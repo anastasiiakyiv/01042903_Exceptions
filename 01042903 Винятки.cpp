@@ -167,11 +167,11 @@ int main() {
 	}
 	catch (stack_size_error& se_exc)
 	{
-		cout << "Помилка розміру стека." << se_exc.what() << endl;
+		cout << "Помилка розміру стека." << endl;
 	}
 	catch (stack_empty& empty_exc)
 	{
-		cout << "Стек порожній." << empty_exc.what() << endl;
+		cout << "Стек порожній." << endl;
 	}
 	cout << stk.pop() << endl;
 	return 0;
